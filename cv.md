@@ -11,7 +11,8 @@
 **E-mail:** lenhack1@gmail.com
 
 **Telegram:** @YelenaDK
-[LinkedIn] (http://linkedin.com/in/елена-коппалова-8538a91b6)
+
+**Linkedin** [LinkedIn](http://linkedin.com/in/елена-коппалова-8538a91b6)
 
 ---
 
@@ -95,7 +96,7 @@ char* ft_itoa(int n){
 
 - Stepik "Веб-разработка для начинающих: HTML и CSS" [Stepik](https://stepik.org/course/38218/syllabus)
 
-- RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+- RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
 
 ---
 
