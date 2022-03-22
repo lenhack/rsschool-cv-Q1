@@ -99,6 +99,20 @@ char* ft_itoa(int n){
 
 ---
 
+## Projects:
+
+- My CV [My CV](https://koppalova-olena-cv.netlify.app/)
+
+- Portfolio [Portfolio](https://portfolio-part3-lenhack.netlify.app/)
+
+- Image Gallery [Image Gallery](https://image-gallery-lenhack.netlify.app/)
+
+- Eco Sounds [Eco Sounds](https://eco-sounds-lenhack.netlify.app)
+
+- Tic-Tac-Toy [Tic-Tac-Toy](https://tic-tac-toe-lenhack.netlify.app/)
+
+---
+
 ## Languages:
 
 - English (in the range of B1 INTERMEDIATE to B2 UPPER INTERMEDIATE);
