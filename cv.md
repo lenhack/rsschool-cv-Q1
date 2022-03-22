@@ -88,6 +88,8 @@ char* ft_itoa(int n){
 
 ## Courses:
 
+- RS School JS Frontend Stage 0 [RS School JS Frontend Stage 0](https://rs.school/)
+
 - Online University TOMMY "Тестувальник програмного
   забезпечення (QC / QA)" [Online University TOMMY](https://www.tommyuniver.com)
 
