@@ -4,7 +4,7 @@
 
 ---
 
-![My photo](/myPhoto.jpg)
+![My photo](images/myPhoto.jpg)
 
 ---
 
