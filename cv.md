@@ -4,6 +4,10 @@
 
 ---
 
+![My photo](/myPhoto.jpg)
+
+---
+
 ## Contact information:
 
 **Phone:** +380964655153
@@ -17,8 +21,6 @@
 ---
 
 ## About myself:
-
-![My photo](../myPhoto.jpg)
 
 I was dreaming to become a developer for a long time. I learned Java on "Java Rush" and Python on "Stepik". I was graduated from Online University TOMMY as a QA, but I understood that I really want to be developer in fact. So, I decided to begin to study in RS School and to become a developer. I really like to decide different tasks and I hope my dream will become a real.
 
