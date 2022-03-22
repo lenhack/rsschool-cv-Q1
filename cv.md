@@ -95,10 +95,16 @@ char* ft_itoa(int n){
 
 - RS School JS Frontend Stage 0 [RS School JS Frontend Stage 0](https://rs.school/)
 
+![RSSchool stage 0](images/Stage-0-Diploma.jpg)
+
 - Online University TOMMY "Тестувальник програмного
   забезпечення (QC / QA)" [Online University TOMMY](https://www.tommyuniver.com)
 
+  ![Tommy](images/Tommy.jpg)
+
 - Stepik "Веб-разработка для начинающих: HTML и CSS" [Stepik](https://stepik.org/course/38218/syllabus)
+
+![Stepik](images/Stepik.jpg)
 
 - RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
 
@@ -121,5 +127,7 @@ char* ft_itoa(int n){
 ## Languages:
 
 - English (in the range of B1 INTERMEDIATE to B2 UPPER INTERMEDIATE);
+  ![English level](images/My-level-of-English.PNG)
+
 - Russian (Native);
 - Ukrainian (Native)
