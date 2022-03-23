@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Olena Koppalova</title>
+    <link rel="icon" type="image/x-icon" href="Icon.png">
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div class="menu-logo">
+                <a href="https://rs.school/js-stage0/ "><img src="https://rs.school/images/rs_school_js.svg" alt="RS Logo" height="64"></a>
+            </div>
+            <nav class="nav">
+                <div class="menu">
+                    <div class="toggle-btn" >
+                        <span></span>
+                    </div>
+                </div>
+                <ul class="menubox">
+                    <li><a href="#about" class="link">About myself</a></li>
+                    <li><a href="#skills" class="link">Skills and Proficiency</a></li>
+                    <li><a href="#code" class="link">Code example</a></li>
+                    <li><a href="#courses" class="link">Courses</a></li>
+                    <li><a href="#projects" class="link">Projects</a></li>
+                    <li><a href="#languages" class="link">Languages</a></li>
+                    <li><a href="#contacts" class="link">Contact information</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <section class="about">
+            <h2 id="about">About myself</h2>
+            <div class="description_about">
+                <div>
+                     <p>
+                        <img src="My-photo.jpg" alt="My photo">
+                    </p>
+                </div>
+                <div class="text_about">
+                    <p class="quote">Hello! I  am Lena.</p>
+                <h1>Front-End Developer</h1>
+                <p>I was dreaming to become a developer for a long time. I was learning Java on "Java Rush"
+                and Python on "Stepik". I was graduated from Online University TOMMY as a QA, but
+                I understood that I really want to be developer in fact. So, I decided to begin
+                to study in RS School and to become a developer. I really like to decide different
+                tasks and I hope my dream will become a real.</p>
+                </div>
+            </div>
+        </section>
+        <section >
+            <h2 id="skills">Skills and Proficiency</h2>
+            <div class="skills">
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+            </ul>
+            <ul>
+                <li>Python Basics</li>
+                <li>Java Basics</li>
+                <li>C Basics</li>
+            </ul>
+            <ul>
+                <li>Git, GitHub</li>
+                <li>VS Code</li>
+                <li>Adobe Photoshop, Corel DRAW, Figma</li>
+            </ul>
+        </div>
+        </section>
+        <section class="code">
+            <h2 id="code">Code example</h2>
+            <h3>Python</h3>
+            <p>This code convert from decimal to binary</p>
+            <pre>
+                <code>
+a = int(input())
+s = ""
+while a >= 1:
+    if a % 2 == 1:
+        s = s + "1"
+    elif a % 2 == 0:
+        s = s + "0"
+    a = a // 2
+print(s[::-1])
+                </code>
+            </pre>
+            <h3>C</h3>
+            <p>This function converts the string argument str to an integer (int type) and returns it.</p>
+            <pre>
+                <code>
+char* ft_itoa(int n){
+    int t = n;
+    int len_num = 0;
+    while(t/=10){
+        len_num++;
+    }
+    len_num++;
+
+    char* str = (char*)malloc(len_num +1);
+    int i = 0;
+
+    if(n &lt; 0){
+        str[0] = '-';
+        n *= -1;
+        i++;
+    }
+
+    while(len_num >= i){
+        str[len_num] = (n%10) + '0';
+        n/=10;
+        len_num--;
+    }
+    str[ft_strlen(str)] = '\0';
+    return str;
+}
+                </code>
+            </pre>
+        </section>
+        <section class="courses">
+            <h2 id="courses">Courses</h2>
+            <ul>
+                <li>
+                    <a href="https://rs.school/">RS School JS Frontend Stage 0</a>
+                </li>
+                <li>
+                    <img src="Stage-0-Diploma.jpg" alt="Diploma RSSchool JS Frontend Stage 0">
+                </li>
+                <li>
+                    <a href="https://stepik.org/course/38218/syllabus">Stepik "Веб-разработка для начинающих: HTML и CSS"</a>
+                </li>
+                <li>
+                    <img src="stepik-certificate-HTML_CSS_page-0001.jpg" alt="Certificate HTML CSS">
+                </li>
+                <li>
+                    <a href="https://www.tommyuniver.com">Online University TOMMY "Тестувальник програмного
+                        забезпечення (QC / QA)"</a>
+                </li>
+                <li>
+                    <img src="DiplomaTommy_page-0001.jpg" alt="Diploma Online University TOMMY">
+                </li>
+                <li>
+                    <a href="https://rs.school/js/">RS Schools Course «JavaScript/Front-end. Stage 0»</a>
+                </li>
+                </ul>
+        </section>
+        <section class="courses">
+            <h2 id="projects">Projects</h2>
+            <ul>
+                <li><a href="https://koppalova-olena-cv.netlify.app">My CV</a></li>
+                <li><a href="https://portfolio-part3-lenhack.netlify.app">Portfolio</a></li>
+                <li><a href="https://image-gallery-lenhack.netlify.app">Image Gallery</a></li>
+                <li><a href="https://eco-sounds-lenhack.netlify.app">Eco Sounds</a></li>
+                <li><a href="https://tic-tac-toe-lenhack.netlify.app/">Tic-Tac-Toy</li>
+            </ul>
+        </section>
+        <section class="courses">
+            <h2 id="languages">Languages</h2>
+            <ul>
+                <li>
+                    English (in the range of B1 INTERMEDIATE to B2 UPPER INTERMEDIATE)
+                </li>
+                <li><img src="My-level-of-English.PNG" alt="My_level_of_English"></li>
+                <li>Ukrainian (Native)</li>
+                <li>Russian (Native)</li>
+            </ul>
+        </section>
+        <section style="margin-bottom: 10em;">
+            <h2 id="contacts">Contacts</h2>
+            <div class="contacts">
+                <div>
+                    <p>
+                        <span>Phone:</span> <a href="tel:+380964655153">+38 096 465 51 53</a>
+                    </p>
+                    <p>
+                        <span>E-mail:</span> <a href="mailto:lenhack1@gmail.com?subject=job's-propose">lenhack1@gmail.com</a>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <span>Telegram:</span> <a href="tg://resolve?domain=@YelenaDK">@YelenaDK</a>"
+                    </p>
+                    <p>
+                        <span>LinkedIn:</span> <a href="http://linkedin.com/in/елена-коппалова-8538a91b6">http://linkedin.com/in/елена-коппалова-8538a91b6</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <a href="https://rs.school/js/ "><img src="https://rs.school/images/rs_school_js.svg" alt="RS Logo" height="64"></a>
+            <p><a href="https://github.com/lenhack">GitHub</a></p>
+            <p>&copy; 2021 by Olena Koppalova</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
