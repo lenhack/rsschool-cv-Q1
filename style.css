@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #dcdcdc;
+  display: flex;
+  flex-direction: column;
+}
+
+.container,
+.container-header,
+.footer {
+  max-width: 1180px;
+  margin: 0px auto;
+}
+
+.container-header img {
+  padding-left: 3rem;
+}
+
+a:active,
+a:hover {
+  color: #000080;
+  font-weight: 800;
+  transition: 3ms;
+}
+
+p,
+.courses a,
+.courses li,
+.skills li {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 24px;
+  transition: 0.25s linear;
+}
+
+h1,
+h2,
+h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto";
+  color: #191970;
+}
+
+h1 {
+  font-size: 45px;
+  color: #b22222;
+}
+
+h2 {
+  font-size: 40px;
+  padding-top: 100px;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.quote {
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  left: 0;
+  top: 0;
+  background: #708090;
+  z-index: 3;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menubox {
+  display: flex;
+  align-items: center;
+}
+
+.menu form {
+  visibility: hidden;
+}
+
+.menu-logo {
+  padding-top: 8px;
+}
+
+nav {
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav ul,
+.courses ul {
+  list-style: none;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #212121;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.nav img,
+footer img {
+  max-width: 100%;
+  padding-top: 7px;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0.5em;
+  padding-left: 0.25em;
+}
+
+.about {
+  width: 100%;
+  left: 0;
+  border: 0;
+  margin-top: -20px;
+}
+
+.about p {
+  display: flex;
+  justify-content: center;
+}
+
+.about img {
+  margin: 0 3em;
+  margin-top: 30px;
+  border: 2px #000080;
+  width: 350px;
+}
+
+.description_about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.text_about {
+  margin: 0 3rem;
+  padding: 0 1rem;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.skills li {
+  padding: 10px;
+}
+
+.code pre {
+  background-color: #708090;
+  color: aliceblue;
+  box-shadow: #696969 5px 5px 10px;
+  padding: 1em 0;
+  margin: 0 auto;
+  font-size: 18px;
+  width: 70vw;
+}
+
+.code code {
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.code p {
+  font-style: italic;
+}
+
+.courses a,
+.contacts a {
+  text-decoration: none;
+  color: #212121;
+}
+
+.contacts {
+  padding-top: 2rem;
+}
+
+.courses li,
+.courses img,
+.code p {
+  display: flex;
+  justify-content: center;
+  padding: 0.5em;
+}
+
+.courses img {
+  width: 400px;
+  margin: 1.5em 0;
+  cursor: pointer;
+}
+
+.courses img:hover {
+  width: 1000px;
+}
+
+.courses img,
+.about img {
+  box-shadow: #696969 5px 5px 10px;
+  background-color: #708090;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contacts span {
+  font-weight: 700;
+}
+
+footer {
+  background-color: #708090;
+  color: aliceblue;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  padding: 0px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+@media screen and (max-width: 1160px) {
+  .description_about,
+  .skills,
+  .contacts {
+    flex-direction: column;
+  }
+
+  .skills,
+  .contacts {
+    margin-left: 3rem;
+  }
+
+  .menubox {
+    position: absolute;
+    background-color: #708090;
+    padding: 10px 0;
+    width: 100%;
+    visibility: hidden;
+    margin-top: 70px;
+    transition: 1s;
+    right: -100%;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  .menubox.active {
+    visibility: visible;
+    transition: 1s;
+  }
+
+  .menubox li {
+    display: block;
+    padding-top: 10px;
+    padding-left: 0;
+    padding-top: 3rem;
+  }
+
+  .nav a {
+    font-size: 36px;
+    padding-left: 5rem;
+  }
+
+  .toggle-btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .toggle-btn span,
+  .toggle-btn span:before,
+  .toggle-btn span:after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+    transition-duration: 0.25s;
+  }
+
+  .toggle-btn span:before {
+    content: "";
+    top: -8px;
+  }
+
+  .toggle-btn span:after {
+    content: "";
+    top: 8px;
+  }
+
+  .toggle-btn.active span {
+    transform: rotate(45deg);
+  }
+
+  .toggle-btn.active span:before {
+    top: 0;
+    transform: rotate(0);
+  }
+  .toggle-btn.active span:after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  .menubox.active {
+    visibility: visible;
+    right: 0;
+  }
+
+  .footer a,
+  .footer p {
+    font-size: 18px;
+    align-items: center;
+  }
+
+  .footer img {
+    height: 44px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100vw;
+    box-shadow: none;
+    border: none;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  .container-header,
+  .container,
+  footer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer a,
+  .footer p {
+    font-size: 24px;
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .code {
+    margin: 0 auto;
+  }
+
+  .courses img {
+    width: 350px;
+  }
+  header {
+    height: 70px;
+    width: 425px;
+    box-shadow: none;
+  }
+
+  .menu-logo img {
+    height: 50px;
+  }
+}
